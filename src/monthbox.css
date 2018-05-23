@@ -1,0 +1,126 @@
+﻿.monthbox {
+    position: relative;
+}
+
+.monthbox-text {
+    background-color: #fff;
+    background-image: url(/images2/icon-choice.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    width: 2.8rem;
+    height: 0.3rem;
+    font-size: 0.18rem;
+    line-height: 0.3rem;
+    padding-left: 0.1rem;
+}
+
+.monthbox-panel {
+    position: absolute;
+    width: 1.82rem;
+    margin-left: -9999px;
+    border: 1px solid #e2e2e2;
+    top: 0.25rem;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    font-size: 0;
+}
+
+.monthbox-panel.active {
+    margin-left: 0;
+}
+
+.monthbox-panel .head {
+}
+
+.monthbox-panel .head .pp {
+    color: #389edc;
+    cursor: pointer;
+    font-size: 0.18rem;
+    font-weight: bold;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    color: #389edc;
+}
+
+.monthbox-panel .head .pp:hover {
+    color: #6bc4fa;
+}
+
+.monthbox-panel .head .pp:active {
+    color: #3892c8;
+}
+
+.monthbox-panel .head .pp.disabled {
+    color: #ccc;
+    cursor: default;
+}
+
+.monthbox-panel .head .pre {
+    float: left;
+    margin-left: 0.2rem;
+}
+
+.monthbox-panel .head .post {
+    float: right;
+    margin-right: 0.2rem;
+}
+
+.monthbox-panel .head .year {
+    position: absolute;
+    width: 0.4rem;
+    left: 50%;
+    margin-left: -0.2rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    font-size: 0.16rem;
+    font-family: SimSun;
+    color: #389edc;
+}
+
+.monthbox-panel .hr {
+    border-top: 1px solid #f0f0f0;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    clear: both;
+}
+
+.monthbox-panel ul {
+    margin-left: 0.2rem;
+}
+
+.monthbox-panel ul li.month {
+    background-color: #b5e2f3;
+    float: left;
+    width: 0.32rem;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    margin-top: 0.06rem;
+    margin-right: 0.06rem;
+    font-size: 0.16rem;
+    font-family: SimSun;
+    color: #484848;
+    text-align: center;
+    cursor:pointer;
+}
+
+.monthbox-panel ul li.month:hover {
+    background-color: #d9f1ff;
+}
+
+.monthbox-panel ul li.month:active {
+    background-color: #389edc;
+    color: #fff;
+}
+
+.monthbox-panel ul li.month.disabled {
+    background-color: #ccc;
+    color: #484848;
+    cursor: default;
+}
+
+.monthbox-panel .space {
+    height: 0.1rem;
+    clear: both;
+}
